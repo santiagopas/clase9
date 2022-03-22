@@ -1,0 +1,12 @@
+.descuentos {
+  background-color: var(--green);
+  font-size: 1rem;
+  height: 38px;
+}
+
+.descuentos>p {
+  position: absolute;
+  height: 18px;
+  left: 10px;
+  top: 10px;
+}

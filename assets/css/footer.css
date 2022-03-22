@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--blue);
+}
+
+.textF {
+  font-size: 1rem;
+  height: 35px;
+  color: #FFF9F9;
+  padding-top: 16px;
+  padding-left: 16px;
+}

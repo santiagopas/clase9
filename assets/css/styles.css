@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'reactangle.css';
+@import 'header.css';
+@import 'main.css';
+@import 'card.css';
+@import 'footer.css';
+
+
+:root {
+  --mainFont: 'Roboto', sans-serif;
+  --green: #1CD1B0;
+  --blue: #00669F;
+  --bg: #E5E5E5;
+  --bgCard: #F3F3F3;
+  --shadowCard: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --shadowBanner: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--mainFont);
+}
+
+body {
+  background: var(--bg);
+}
