@@ -1,9 +1,15 @@
 .main {
-  height: 80vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   align-content: space-around;
+  height: 80vh;
+}
+
+@media (max-width: 810px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+  }
 }

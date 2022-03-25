@@ -2,11 +2,13 @@
   background-color: var(--blue);
   box-shadow: var(--shadowBanner);
   height: 101px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
 }
 
 .header>h1 {
-  position: absolute;
-  height: 47px;
-  left: 28px;
-  top: 66px;
+  margin-left: 1rem;
 }
